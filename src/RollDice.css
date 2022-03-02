@@ -1,0 +1,32 @@
+
+
+.Dice{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+button{
+display: center;
+margin: auto;
+height:50px;
+width: 100px;
+border:none;  
+background-color: steelblue;
+border-radius: 7%;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 350ms;
+    background-color: slategray;
+}
+
+button:active{
+    transform:scale(1);
+    transition-duration: 350ms;
+
+}
+
+
